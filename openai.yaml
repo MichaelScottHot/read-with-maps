@@ -1,0 +1,13 @@
+interface:
+  display_name: 慢读小地图
+  short_description: 为长文标出少量关键词，并把关系草图放在最适合阅读的位置
+  default_prompt: 请用 $read-with-maps 把下面的文章做成可直接阅读的关键词标记与关系草图。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
